@@ -1,0 +1,30 @@
+/* Reset default browser styles for liss and links */
+body, ul {
+    margin: auto;
+    padding: auto;
+}
+
+nav {
+    background-color: #c72121; /* Background color of the navigation bar */
+    /*overflow: visible; /* Ensures all items stay in the nav bar */
+}
+
+nav ul {
+    list-style-type: none; 
+   position:sticky;
+
+}
+
+
+nav ul li a {
+    display: block;
+    padding: 1em;
+text-decoration: none;
+    color: white; /* Text color of the links */
+    text-align: center;
+   
+}
+
+nav ul li a:hover {
+    background-color: #4a0395; /* Background color on hover */
+}
